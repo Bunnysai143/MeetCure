@@ -1,0 +1,27 @@
+/* Add to your CSS file */
+.calendar-container .react-calendar {
+  width: 100%;
+  background: white;
+  border: none;
+  font-family: inherit;
+}
+
+.react-calendar__tile {
+  padding: 1em 0.5em;
+  transition: all 0.2s;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #0A4D68;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+}
+
+.react-calendar__tile--active {
+  background: #0A4D68 !important;
+  border-radius: 0.5rem;
+}
